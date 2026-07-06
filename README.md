@@ -6,9 +6,9 @@ A full-stack MERN blogging platform with JWT authentication, rich text editing, 
 
 ## 🌐 Live Demo
 
-🔗 **Frontend:** https://your-frontend-url.com
+🔗 **Frontend:** https://blogifyy-swart.vercel.app/
 
-🔗 **Backend API:** https://your-backend-url.com
+🔗 **Backend API:** https://blogifyy-rreh.onrender.com
 
 ---
 
@@ -228,26 +228,6 @@ Blogify includes a fully functional newsletter system.
 
 ---
 
-# 🚀 Future Improvements
 
-- User Accounts
-- Like & Bookmark Blogs
-- Reading Time Estimation
-- Related Articles
-- User Profiles
-- Social Sharing
-- Admin Analytics Dashboard
-- Newsletter Campaign Management
-- Dark Mode
 
----
 
-# 👨‍💻 Author
-
-**Nishant Mandhare**
-
-- GitHub: https://github.com/yourusername
-- LinkedIn: https://linkedin.com/in/yourprofile
-- Portfolio: https://yourportfolio.com
-
----
