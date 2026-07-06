@@ -137,7 +137,7 @@ Blogify
 ## Clone Repository
 
 ```bash
-git clone https://github.com/Nishant1016/Blogify.git
+git clone https://github.com/Nishant1016/Blogifyy.git
 ```
 
 ```bash
