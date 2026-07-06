@@ -6,7 +6,5 @@ const client = new ImageKit({
   urlEndpoint: process.env['IMAGEKIT_URL_ENDPOINT']
 });
 
-console.log(typeof client.upload);
-console.log(typeof client.files);  
 
 export default client;

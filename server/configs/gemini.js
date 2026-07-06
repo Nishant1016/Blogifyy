@@ -1,7 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
 
-console.log("✅ REAL gemini.js file loaded");
-
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 async function main(prompt) {
