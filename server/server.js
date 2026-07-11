@@ -6,6 +6,8 @@ import adminRouter from "./routes/adminRoutes.js";
 import blogRouter from "./routes/blogRoutes.js";
 import newsletterrouter from "./routes/newsletterRoutes.js";
 import newsletterRouter from "./routes/newsletterRoutes.js";
+import userRouter from "./routes/userRoutes.js";
+import userBlogRouter from "./routes/userBlogRoutes.js";
 
 const app = express();
 
@@ -20,6 +22,8 @@ app.get('/', (req, res) => res.send("API is working"))
 app.use('/api/admin', adminRouter)
 app.use('/api/blog', blogRouter)
 app.use('/api/newsletter', newsletterRouter)
+app.use("/api/user", userRouter);
+app.use("/api/user/blog", userBlogRouter);
 
 const PORT = process.env.PORT || 3000;
 

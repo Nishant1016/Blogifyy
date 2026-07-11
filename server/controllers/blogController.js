@@ -6,7 +6,7 @@ import main from '../configs/gemini.js';
 
 export const addBlog = async (req, res) => {
     try {
-        const {title, subTitle, description, category, isPublished} = JSON.parse
+        const {title, subtitle, description, category, isPublished} = JSON.parse
         (req.body.blog);
         const imageFile = req.file;
         const fileBuffer = imageFile.buffer;
@@ -35,7 +35,7 @@ export const addBlog = async (req, res) => {
        
         const image = response.url;
 
-        await Blog.create({title, subTitle, description, category, image, isPublished})
+        await Blog.create({title, subtitle, description, category, image, isPublished})
 
         res.json({success: true, message: "Blog addded successfully!"})
 
