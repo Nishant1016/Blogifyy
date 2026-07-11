@@ -27,7 +27,7 @@ const Header = () => {
     }
 
     return (
-        <section className='overflow-hidden px-6 sm:px-12 lg:px-20 xl:px-28 pt-4 pb-24'>
+        <section className='overflow-hidden px-6 sm:px-12 lg:px-20 xl:px-28 pt-2 pb-24'>
             <div className='max-w-5xl mx-auto text-center'>
                 <div>
                     <div className='inline-flex items-center gap-2 px-4 py-2 mb-6 
